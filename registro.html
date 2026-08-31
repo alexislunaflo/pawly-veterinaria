@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Creá una cuenta de Pawly para reservar turnos veterinarios." />
+    <title>Crear cuenta | Pawly</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.min.css" /><link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="auth-page" data-page="registro">
+    <header class="auth-header"><div class="shell header-grid"><a class="brand" href="./index.html"><span class="brand-symbol"><i></i><i></i><i></i><i></i></span><strong>Pawly</strong><small>VET NETWORK</small></a><span></span><a class="auth-back" href="./index.html">← VOLVER AL SITIO</a></div></header>
+    <main class="auth-layout">
+      <section class="auth-side"><p class="section-code light">PRIMER PASO</p><h1>Creá tu espacio <em>de cuidado.</em></h1><p>Una cuenta te permite confirmar turnos y mantener organizada la agenda veterinaria de tus mascotas.</p><ul class="auth-points"><li><span>01</span> Registro rápido y gratuito</li><li><span>02</span> Confirmación inmediata del turno</li><li><span>03</span> Datos guardados en este dispositivo</li></ul></section>
+      <section class="auth-form-side"><div class="auth-box"><p class="section-code">CREAR CUENTA</p><h2>Empecemos.</h2><p>Completá tus datos para poder reservar y administrar turnos.</p><form class="auth-form" id="registerForm"><div class="field-grid"><label class="field"><span>Nombre</span><input name="name" type="text" autocomplete="given-name" minlength="2" maxlength="35" required placeholder="Tu nombre" /></label><label class="field"><span>Apellido</span><input name="lastName" type="text" autocomplete="family-name" minlength="2" maxlength="35" required placeholder="Tu apellido" /></label></div><label class="field"><span>Correo electrónico</span><input name="email" type="email" autocomplete="email" required placeholder="nombre@email.com" /></label><label class="field"><span>Contraseña</span><span class="password-control"><input name="password" type="password" autocomplete="new-password" minlength="6" required placeholder="Mínimo 6 caracteres" /><button class="password-toggle" type="button" data-password-toggle aria-label="Mostrar contraseña">Mostrar</button></span></label><p class="form-message" id="formMessage" aria-live="polite"></p><button class="button button-primary button-full" type="submit">Crear mi cuenta <span>→</span></button></form><p class="auth-switch">¿Ya tenés una cuenta? <a href="./login.html" data-auth-switch>Ingresá</a></p><p class="privacy-copy">Este proyecto educativo guarda la cuenta únicamente en tu navegador.</p></div></section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.all.min.js"></script><script type="module" src="./js/auth.js"></script>
+  </body>
+</html>

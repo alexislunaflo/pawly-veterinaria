@@ -1,0 +1,50 @@
+[
+  {
+    "id": "clinica-general",
+    "name": "Clínica general",
+    "icon": "✚",
+    "price": 28000,
+    "durationMinutes": 30,
+    "description": "Controles, vacunación, certificados y consultas para cuidar su salud todos los días."
+  },
+  {
+    "id": "cardiologia",
+    "name": "Cardiología",
+    "icon": "♡",
+    "price": 42000,
+    "durationMinutes": 45,
+    "description": "Evaluación, diagnóstico y seguimiento especializado de la salud cardiovascular."
+  },
+  {
+    "id": "dermatologia",
+    "name": "Dermatología",
+    "icon": "⌁",
+    "price": 36000,
+    "durationMinutes": 40,
+    "description": "Atención de alergias, lesiones, picazón y enfermedades de piel, pelo y uñas."
+  },
+  {
+    "id": "cirugia",
+    "name": "Cirugía",
+    "icon": "✦",
+    "price": 55000,
+    "durationMinutes": 45,
+    "description": "Procedimientos programados con evaluación prequirúrgica y seguimiento integral."
+  },
+  {
+    "id": "felinos",
+    "name": "Medicina felina",
+    "icon": "◉",
+    "price": 32000,
+    "durationMinutes": 35,
+    "description": "Consultas pensadas para las necesidades y el comportamiento particular de los gatos."
+  },
+  {
+    "id": "traumatologia",
+    "name": "Traumatología",
+    "icon": "◇",
+    "price": 40000,
+    "durationMinutes": 40,
+    "description": "Diagnóstico y tratamiento de lesiones en huesos, articulaciones y movilidad."
+  }
+]

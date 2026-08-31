@@ -1,0 +1,195 @@
+[
+  {
+    "id": "dra-julieta-paz",
+    "name": "Dra. Julieta Paz",
+    "initials": "JP",
+    "clinicId": "vet-palermo",
+    "specialtyIds": ["clinica-general", "cirugia"],
+    "license": "MN 18432",
+    "experience": 9,
+    "avatarColor": "#357c66",
+    "avatarBackground": "#d5eadf",
+    "availability": {
+      "1": ["09:00", "09:30", "10:00", "10:30", "15:00", "15:30", "16:00", "16:30"],
+      "3": ["09:00", "09:30", "10:00", "10:30", "11:00", "16:00", "16:30", "17:00"],
+      "5": ["08:30", "09:00", "09:30", "10:00", "14:00", "14:30", "15:00"]
+    }
+  },
+  {
+    "id": "dr-tomas-vidal",
+    "name": "Dr. Tomás Vidal",
+    "initials": "TV",
+    "clinicId": "vet-belgrano",
+    "specialtyIds": ["clinica-general", "cardiologia"],
+    "license": "MN 17619",
+    "experience": 12,
+    "avatarColor": "#496f91",
+    "avatarBackground": "#dbe8f2",
+    "availability": {
+      "2": ["08:00", "08:30", "09:00", "09:30", "10:00", "16:00", "16:30", "17:00"],
+      "4": ["10:00", "10:30", "11:00", "11:30", "14:30", "15:00", "15:30"],
+      "6": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30"]
+    }
+  },
+  {
+    "id": "dra-valentina-rey",
+    "name": "Dra. Valentina Rey",
+    "initials": "VR",
+    "clinicId": "vet-caballito",
+    "specialtyIds": ["felinos", "clinica-general"],
+    "license": "MN 19275",
+    "experience": 7,
+    "avatarColor": "#8a5f91",
+    "avatarBackground": "#eadff0",
+    "availability": {
+      "1": ["13:00", "13:30", "14:00", "14:30", "15:00", "15:30"],
+      "2": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30"],
+      "4": ["13:00", "13:30", "14:00", "14:30", "15:00", "15:30"],
+      "6": ["09:00", "09:30", "10:00", "10:30", "11:00"]
+    }
+  },
+  {
+    "id": "dr-martin-ramos",
+    "name": "Dr. Martín Ramos",
+    "initials": "MR",
+    "clinicId": "vet-palermo",
+    "specialtyIds": ["traumatologia", "cirugia"],
+    "license": "MN 16584",
+    "experience": 14,
+    "avatarColor": "#9f654b",
+    "avatarBackground": "#f2dfd5",
+    "availability": {
+      "2": ["09:30", "10:00", "10:30", "11:00", "15:30", "16:00", "16:30"],
+      "4": ["09:30", "10:00", "10:30", "11:00", "15:30", "16:00", "16:30"],
+      "5": ["11:00", "11:30", "12:00", "16:00", "16:30", "17:00"]
+    }
+  },
+  {
+    "id": "dra-camila-suarez",
+    "name": "Dra. Camila Suárez",
+    "initials": "CS",
+    "clinicId": "vet-san-isidro",
+    "specialtyIds": ["dermatologia", "clinica-general"],
+    "license": "MN 20113",
+    "experience": 6,
+    "avatarColor": "#668449",
+    "avatarBackground": "#e1ebd6",
+    "availability": {
+      "1": ["10:00", "10:30", "11:00", "11:30", "14:00", "14:30", "15:00"],
+      "3": ["10:00", "10:30", "11:00", "11:30", "14:00", "14:30", "15:00"],
+      "5": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30"]
+    }
+  },
+  {
+    "id": "dr-lucas-ferreyra",
+    "name": "Dr. Lucas Ferreyra",
+    "initials": "LF",
+    "clinicId": "vet-vicente-lopez",
+    "specialtyIds": ["traumatologia", "cardiologia"],
+    "license": "MN 17306",
+    "experience": 11,
+    "avatarColor": "#406e72",
+    "avatarBackground": "#d6e8e8",
+    "availability": {
+      "2": ["08:30", "09:00", "09:30", "10:00", "14:30", "15:00", "15:30"],
+      "3": ["08:30", "09:00", "09:30", "10:00", "14:30", "15:00", "15:30"],
+      "6": ["09:00", "09:30", "10:00", "10:30", "11:00"]
+    }
+  },
+  {
+    "id": "dra-agustina-luna",
+    "name": "Dra. Agustina Luna",
+    "initials": "AL",
+    "clinicId": "vet-almagro",
+    "specialtyIds": ["felinos", "dermatologia"],
+    "license": "MN 19842",
+    "experience": 8,
+    "avatarColor": "#885c6f",
+    "avatarBackground": "#eedde4",
+    "availability": {
+      "1": ["09:00", "09:30", "10:00", "10:30", "15:00", "15:30", "16:00"],
+      "3": ["09:00", "09:30", "10:00", "10:30", "15:00", "15:30", "16:00"],
+      "5": ["12:00", "12:30", "13:00", "13:30", "14:00", "14:30"]
+    }
+  },
+  {
+    "id": "dr-santiago-ibarra",
+    "name": "Dr. Santiago Ibarra",
+    "initials": "SI",
+    "clinicId": "vet-almagro",
+    "specialtyIds": ["clinica-general", "cirugia"],
+    "license": "MN 18102",
+    "experience": 10,
+    "avatarColor": "#7c713f",
+    "avatarBackground": "#eee8ce",
+    "availability": {
+      "2": ["10:00", "10:30", "11:00", "11:30", "16:00", "16:30", "17:00"],
+      "4": ["10:00", "10:30", "11:00", "11:30", "16:00", "16:30", "17:00"],
+      "6": ["08:30", "09:00", "09:30", "10:00", "10:30", "11:00"]
+    }
+  },
+  {
+    "id": "dra-adriana-mendez",
+    "name": "Dra. Adriana Méndez",
+    "initials": "AM",
+    "clinicId": "vet-moron",
+    "specialtyIds": ["clinica-general", "cirugia"],
+    "license": "MP 14582",
+    "experience": 13,
+    "avatarColor": "#0e63d7",
+    "avatarBackground": "#dff4ff",
+    "availability": {
+      "1": ["08:30", "09:00", "09:30", "10:00", "15:00", "15:30", "16:00"],
+      "3": ["08:30", "09:00", "09:30", "10:00", "15:00", "15:30", "16:00"],
+      "5": ["10:00", "10:30", "11:00", "11:30", "16:00", "16:30"]
+    }
+  },
+  {
+    "id": "dr-nicolas-peralta",
+    "name": "Dr. Nicolás Peralta",
+    "initials": "NP",
+    "clinicId": "vet-ramos-mejia",
+    "specialtyIds": ["clinica-general", "cardiologia"],
+    "license": "MP 15204",
+    "experience": 9,
+    "avatarColor": "#084dac",
+    "avatarBackground": "#cfe8ff",
+    "availability": {
+      "2": ["09:00", "09:30", "10:00", "10:30", "14:00", "14:30", "15:00"],
+      "4": ["09:00", "09:30", "10:00", "10:30", "14:00", "14:30", "15:00"],
+      "6": ["09:00", "09:30", "10:00", "10:30", "11:00"]
+    }
+  },
+  {
+    "id": "dra-paula-benitez",
+    "name": "Dra. Paula Benítez",
+    "initials": "PB",
+    "clinicId": "vet-castelar",
+    "specialtyIds": ["felinos", "dermatologia"],
+    "license": "MP 16031",
+    "experience": 7,
+    "avatarColor": "#0c70c7",
+    "avatarBackground": "#e4f4ff",
+    "availability": {
+      "1": ["10:00", "10:30", "11:00", "11:30", "15:30", "16:00", "16:30"],
+      "4": ["10:00", "10:30", "11:00", "11:30", "15:30", "16:00", "16:30"],
+      "5": ["09:00", "09:30", "10:00", "10:30", "11:00"]
+    }
+  },
+  {
+    "id": "dr-federico-acosta",
+    "name": "Dr. Federico Acosta",
+    "initials": "FA",
+    "clinicId": "vet-ituzaingo",
+    "specialtyIds": ["traumatologia", "clinica-general"],
+    "license": "MP 13876",
+    "experience": 15,
+    "avatarColor": "#155eaa",
+    "avatarBackground": "#d8efff",
+    "availability": {
+      "2": ["08:30", "09:00", "09:30", "10:00", "14:30", "15:00", "15:30"],
+      "3": ["08:30", "09:00", "09:30", "10:00", "14:30", "15:00", "15:30"],
+      "6": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30"]
+    }
+  }
+]

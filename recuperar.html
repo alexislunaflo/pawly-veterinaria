@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Recuperá el acceso a tu cuenta de Pawly." />
+    <title>Recuperar contraseña | Pawly</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.min.css" /><link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="auth-page" data-page="recuperar">
+    <header class="auth-header"><div class="shell header-grid"><a class="brand" href="./index.html"><span class="brand-symbol"><i></i><i></i><i></i><i></i></span><strong>Pawly</strong><small>VET NETWORK</small></a><span></span><a class="auth-back" href="./login.html">← VOLVER A INGRESAR</a></div></header>
+    <main class="auth-layout">
+      <section class="auth-side"><p class="section-code light">RECUPERAR ACCESO</p><h1>Volver a entrar debería ser <em>simple.</em></h1><p>Verificamos primero tu correo y después te ayudamos a definir una contraseña nueva.</p><ul class="auth-points"><li><span>01</span> Buscamos tu cuenta local</li><li><span>02</span> Validamos un código temporal</li><li><span>03</span> Guardamos tu contraseña nueva</li></ul></section>
+      <section class="auth-form-side"><div class="auth-box"><p class="section-code">RECUPERACIÓN</p><h2>Recuperá tu cuenta.</h2><p>Como esta es una aplicación educativa sin servidor de correo, el código de verificación se mostrará en pantalla.</p>
+        <form class="auth-form" id="recoverEmailForm"><label class="field"><span>Correo registrado</span><input name="email" type="email" autocomplete="email" required placeholder="nombre@email.com" /></label><p class="form-message" data-recovery-message="email" aria-live="polite"></p><button class="button button-primary button-full" type="submit">Generar código temporal <span>→</span></button></form>
+        <form class="auth-form" id="resetPasswordForm" hidden><p class="recovery-email" id="recoveryEmailText"></p><div class="recovery-demo"><small>SIMULACIÓN · En una aplicación real llegaría por email</small><strong id="demoRecoveryCode"></strong></div><label class="field"><span>Código temporal</span><input name="code" type="text" inputmode="numeric" maxlength="6" required placeholder="6 dígitos" /></label><label class="field"><span>Nueva contraseña</span><span class="password-control"><input name="password" type="password" autocomplete="new-password" minlength="6" required placeholder="Mínimo 6 caracteres" /><button class="password-toggle" type="button" data-password-toggle aria-label="Mostrar contraseña">Mostrar</button></span></label><label class="field"><span>Repetir contraseña</span><span class="password-control"><input name="passwordRepeat" type="password" autocomplete="new-password" minlength="6" required placeholder="Repetí la contraseña" /><button class="password-toggle" type="button" data-password-toggle aria-label="Mostrar contraseña">Mostrar</button></span></label><p class="form-message" data-recovery-message="reset" aria-live="polite"></p><button class="button button-primary button-full" type="submit">Guardar nueva contraseña <span>✓</span></button><button class="recovery-back" type="button" id="restartRecovery">Usar otro correo</button></form>
+        <p class="auth-switch">¿Recordaste tu contraseña? <a href="./login.html" data-login-return>Volvé a ingresar</a></p><p class="privacy-copy">El código existe únicamente durante esta visita y no se envía a ningún servicio externo.</p>
+      </div></section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.all.min.js"></script><script type="module" src="./js/recovery.js"></script>
+  </body>
+</html>

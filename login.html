@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ingresá a tu cuenta de Pawly." />
+    <title>Ingresar | Pawly</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.min.css" /><link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="auth-page" data-page="login">
+    <header class="auth-header"><div class="shell header-grid"><a class="brand" href="./index.html"><span class="brand-symbol"><i></i><i></i><i></i><i></i></span><strong>Pawly</strong><small>VET NETWORK</small></a><span></span><a class="auth-back" href="./index.html">← VOLVER AL SITIO</a></div></header>
+    <main class="auth-layout">
+      <section class="auth-side"><p class="section-code light">TU CUENTA</p><h1>Volvé a tu <em>agenda.</em></h1><p>Ingresá para consultar los turnos de tus mascotas, reprogramar una visita o comenzar una nueva reserva.</p><ul class="auth-points"><li><span>01</span> Tus turnos en un solo lugar</li><li><span>02</span> Reprogramación sin llamados</li><li><span>03</span> Historial guardado en este dispositivo</li></ul></section>
+      <section class="auth-form-side"><div class="auth-box"><p class="section-code">INGRESAR</p><h2>Qué bueno verte.</h2><p>Usá el correo y la contraseña con los que creaste tu cuenta.</p><form class="auth-form" id="loginForm"><label class="field"><span>Correo electrónico</span><input name="email" type="email" autocomplete="email" required placeholder="nombre@email.com" /></label><label class="field"><span>Contraseña</span><span class="password-control"><input name="password" type="password" autocomplete="current-password" minlength="6" required placeholder="Mínimo 6 caracteres" /><button class="password-toggle" type="button" data-password-toggle aria-label="Mostrar contraseña">Mostrar</button></span></label><p class="form-support"><a href="./recuperar.html" data-recovery-link>Olvidé mi contraseña</a></p><p class="form-message" id="formMessage" aria-live="polite"></p><button class="button button-primary button-full" type="submit">Ingresar a mi cuenta <span>→</span></button></form><p class="auth-switch">¿Todavía no tenés cuenta? <a href="./registro.html" data-auth-switch>Registrate</a></p><p class="privacy-copy">Este proyecto educativo guarda la sesión únicamente en tu navegador.</p></div></section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.all.min.js"></script><script type="module" src="./js/auth.js"></script>
+  </body>
+</html>
